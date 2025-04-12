@@ -16,6 +16,7 @@
         <rest-assured.version>5.5.1</rest-assured.version>
         <lombmok.version>1.18.38</lombmok.version>
         <allure-testng.version>2.29.1</allure-testng.version>
+        <jackson.version>2.18.3</jackson.version>
     </properties>
 
     <dependencies>
@@ -39,6 +40,21 @@
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-testng</artifactId>
             <version>${allure-testng.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <version>${jackson.version}</version>
         </dependency>
     </dependencies>
 
